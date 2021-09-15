@@ -1,28 +1,13 @@
 # Foodo
 Food Donation App
 
-## Table of Content
-- [Proposed System](#proposed-system)
-- [Activities](#activities)
-  * [1. HOME PAGE](#1-home-page)
-  * [2. DONATE](#2-donate)
-  * [3. PICK-UP INFO](#3-pick-up-info)
-  * [4. LOGIN](#4-login)
-  * [5. DONOR INFORMATION](#5-donor-information)
-  * [6. CHECK QUALITY](#6-check-quality)
-  * [7. THANK YOU](#7-thank-you)
-  * [8. ABOUT US](#8-about-us)
-- [Database Structure](#database-structure)
-- [Location API](#location-api)
-- [Video](#video)
-
 ## Proposed System 
 
-   The application ‘FooDo’ will first ask the user if they just want to donate some food (if they are a donor) or if they want to login as a volunteer (if the user is a volunteer). A user can also know more about the app by clicking on the ‘about us’ button.
+  The app 'FooDo' first asks the user whether he/she wishes to give a food (if he/a she's Donor) (if the user is a volunteer). More information about the app may also be found by clicking on the 'Aboutus' icon.
   
-  If the user is a volunteer, (s)he will have to login. Once (s)he logs in, they will be alerted of a new donation that requires a volunteer. If (s)he chooses to accept the delivery, (s)he will be asked to enter basic information, like his/her name, mobile number and current location. Once (s)he reaches the location of the donation, (s)he will have to check the quality of food and verify the quantity available. Once (s)he has delivered the food to the NGO, they will click on a button to confirm the completion of the delivery. If the user however is a new volunteer, (s)he can register by entering email-id, a password and his/her mobile number after which (s)he can login using the login page.
+  If you are a volunteer, you must login. Once he signs in, a new donation requiring a volunteer will be alerted. (s)will be prompted to submit basic information, such as his/her name, mobile number and present placement if he/she choose to accept the delivery. Once the donation is reached I the donation place, the quality of the food must be checked and the quantity available verified. After delivery of the food to the NGO, they click a button to confirm that the delivery has been completed. If, however, the user is a new volunteer, he or she is enabling users to register utilising the Login Page using the email identification, password and mobile number.
   
-  If the user is a donor, the application will ask him/her to enter their full name, mobile number, address, type of food they are donating ( veg/ non-veg), and quantity (in number of people it will serve). After confirmation of the details, the donor will be taken to another page which will show the information about the pickup. The volunteer coming to pick up will also perform a quality check of the product so as to ensure the food delivered is in good condition. If the donation is verified, it is delivered to an NGO and the donor will get a notification and a thank you message. 
+  If the user is a donor, he or she will be asked to input his or her name, cellphone number, address, food type (veg/non-veg) and quantity (in number of people it will serve). After the details have been confirmed, the donor will be led to another page that shows the pickup information. In order for the supplied food to be in good shape, the volunteers coming to pick up will also carry out a quality test for the goods. The donation is sent to an NGO when the donation is verified, and the donor receives a notice and a note of thanks.
 
 ## Activities
 ### 1. HOME PAGE
@@ -43,11 +28,11 @@ After clicking on the donate button on the homepage user will be taken to this p
 
 ### 3. PICK-UP INFO
 
-This page is displayed after the user enters the details for the donation. Here the user will find the details about the volunteer that is going to pick up the donation. The user will also be shown the volunteer’s phone number, in case he/she wants to contact them and, and the estimated time of arrival to the address entered in donation page. The donor now has to wait for the volunteer to come to the address and check the donation for quality and quantity. After the donated food is delivered to NGO, the donor will be taken to a Thank You page.
+This page appears when the user has entered the donation details. Here the user will get the information concerning the volunteer that collects the donation. In case you wish to contact and the expected time of arrival at the address specified on the contribution page, a user will also reveal the volunteer telephone number. The donor must now wait till the volunteer arrives at his address and verifies the quality and amount of the donation. The donor is transferred to a Thank You page when the donated food is given to NGOs.
 
 ### 4. LOGIN
 
-From the homepage, if a person wants to register/ login as a volunteer, they can click on the register button on the home page. This will take them to a form that asks for email address and a password to register. Here the system will check if the email already exists in the database, if not, the user is now registered as a volunteer. If the user is already exists, they can enter their credentials and login. Here, if the credentials don't match, the user will be displayed a message "invalid userid or password.
+On the homepage you may click the registration button on the homepage to register / log in as a volunteer. They are then taken to a form for registering an e-mail address and a password. In this case, the system checks whether the email already exists in the database, otherwise the user is currently registered as a volunteer. You can input your credentials and login if you already have the user. Here, if the credentials are not matched, a "invalid userid or password" notice will be shown.
 
 ### 5. DONOR INFORMATION 
 
@@ -110,11 +95,12 @@ Privacy is taken very seriously in our application and the app only uses and upd
 1. Click Close.
 1. The new API key is listed on the Credentials page under API keys.
 
-## Video
+### Stay Up to date
+It is important for you stay up to date with the new improvements, latest updates and bug fixing. Ensure to Star( * ) the project on Github and get notified whenever any update coming.
 
-We provide a detailed tutorial about “how to use” to our about-us page. This video will explain all the steps to make a donation.  The video player in the app won’t restart the video when it is not visible thus saving resources. All the controls will be displayed to give users option to play or pause the video.
+## That's all folks!
+Feel free to mail me for any doubts/query 
+:email: abhi.yalamaddi@gmail.com
 
 
-
-
-Created By Shaily Pandey, Chandrakantha Sruthi and Pratiksha Naik.
+Feel free to **file a new issue** with a respective title and description on the the [Foodo](https://github.com/hipstermartin/Foodo/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
